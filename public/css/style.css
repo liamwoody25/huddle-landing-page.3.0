@@ -549,10 +549,10 @@ a :hover{
       width: 89%;
       left: 16px;
       height: 176px;
-      padding: 41px 12px 41px 12px;
+      padding: 0px 12px 41px 12px;
     }
     .cta-content {
-      flex-shrink: 1;
+
       position: absolute;
       text-align: center;
       justify-content: left;
@@ -560,7 +560,7 @@ a :hover{
 
     .cta-content h2 {
       margin-bottom: 24px ;
-      font-size: 1.125em;
+      font-size: 1.5em;
     }
 
     .button-3 {
@@ -587,7 +587,9 @@ a :hover{
 
     .footer-left {
      display: flex;
-     width: 39%;
+     justify-content: space-evenly;
+     width: 98%;
+     margin: 0px;
     }
 
     .footer-middle {
@@ -604,9 +606,16 @@ a :hover{
 
     .icons {
       position: relative;
-      top: 60px;
+      top: 20px;
       left: 160px;
       text-align: center;
+    }
+
+    .Copyright {
+      position: relative;
+      left: 100px;
+      top: 50px;
+      font-size: 11px;
     }
  }
 
