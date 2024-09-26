@@ -125,6 +125,7 @@ a {
    font-size: 31px;
    color:#fff;
    text-decoration: none;
+   
 }
 
 a :hover{
@@ -138,8 +139,9 @@ a :hover{
  body {
    padding: 0;
    background-color: var(--bg-color);
-   background-image: url(/public/assets/images/bg-hero-desktop.svg);
+   background-image: url(./public/assets/images/bg-hero-desktop.svg);
    margin: 0;
+   scroll-behavior: smooth;
  }
 
  
@@ -154,6 +156,7 @@ a :hover{
  .logo {
     width: 200px;
     height: 31px;
+    
  }
 
  /*********  hero-container  *********/
@@ -314,8 +317,8 @@ a :hover{
 .footer-content {
    margin: 144px 78px 64px 20px;
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
+   flex-direction: row;
    padding: 0px 20px 0px 0px;
 
 }
@@ -326,27 +329,39 @@ a :hover{
    fill: white;
 }
 
+
+
 .footer-left {
    display: flex;
    justify-content: space-between;
-   margin: 17px ;
+   margin: 17px;
    color: #ffff;
-   width: 37%;
+   width: 39%;
 }
 
-
-.icon-location {
+.fa-location-dot {
    margin-right: 15px;
    
 }
 
-.icon-phone {
+.fa-phone-volume {
    margin-right: 16px;
 }
 
-.icon-email {
+.fa-envelope { 
    margin-right: 16px;
 }
+
+
+
+.footer-middle {
+   display: flex;
+   gap: 100px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
 
 
 
@@ -354,6 +369,7 @@ a :hover{
 /******  icons  ******/
 .icons {
    display: flex;
+   align-items: center;
    gap:12px;
 }
 
@@ -563,13 +579,17 @@ a :hover{
     }
 
     .footer-left {
-      margin: 0;
+     display: flex;
+     width: 39%;
     }
 
-    .location-dot {
-      width: 20px;
+    .footer-middle {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
     }
 
+   
     .footer-right {
       display: flex;
       flex-direction: column;
