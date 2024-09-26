@@ -139,7 +139,7 @@ a :hover{
  body {
    padding: 0;
    background-color: var(--bg-color);
-   background-image: url(./public/assets/images/bg-hero-desktop.svg);
+   background-image: url(/public/assets/images/bg-hero-desktop.svg);
    margin: 0;
    scroll-behavior: smooth;
  }
