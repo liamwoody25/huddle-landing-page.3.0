@@ -122,7 +122,8 @@ a p:hover {
 
 
 a {
-  font-size: 25px;
+  width: 7px;
+  height: 14px;
    color:#fff;
    text-decoration: none;
    
@@ -201,6 +202,7 @@ a :hover{
  .grow-card {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 100%;
     height: 440px;
     background: #ffff;
@@ -211,6 +213,7 @@ a :hover{
  }
 
  .grow-content {
+   width: 37%;
     margin: 151px 0px 150px 120px;
  }
 
@@ -228,6 +231,7 @@ a :hover{
  .flow-card {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 100%;
     height: 440px;
     background: #ffff;
@@ -238,6 +242,7 @@ a :hover{
  }
 
  .flow-content {
+   width: 40%;
     margin: 151px 0px 150px 29px;
  }
 
@@ -255,6 +260,7 @@ a :hover{
  .user-card {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 100%;
     height: 440px;
     background: #ffff;
@@ -265,6 +271,7 @@ a :hover{
  }
 
  .user-content {
+   width: 36%;
     margin: 151px 0px 150px 120px;
  }
 
@@ -373,8 +380,21 @@ a :hover{
 /******  icons  ******/
 .icons {
    display: flex;
-
    gap:12px;
+}
+
+.facebook a {
+   font-size: 24px;
+   
+}
+
+.twitter a {
+   font-size: 24px;
+}
+
+
+.instagram a {
+  font-size: 24px;
 }
 
 
@@ -408,9 +428,10 @@ a :hover{
    }
 
    .button-1 {
-  
-    width: 9;
+    width: 99px;
+    margin: 0px 22px 0px 23px;
     font-size: 1em;
+    font-weight: 700;
     height: 24px;
    }
 
@@ -468,15 +489,6 @@ a :hover{
     text-align: center;
    }
 
-   .grow-content h3 {
-    font-size: 1.25em;
-    
-   }
-
-   .grow-content p {
-    font-size: 14px;
-    font-weight: 400;
-   }
 
    .grow-image {
     margin: 65px 39px 54px 40px;
@@ -491,18 +503,9 @@ a :hover{
  }
 
     .flow-content {
-        width: 256px;
+        width: 75%;
         text-align: center;
         margin: 0px 39px 54px 40px;
-    }
-
-
-    .flow-content h3 {
-        font-size: 1.25em;
-    }
-
-    .flow-content p {
-        font-size: 14px;
     }
 
 
@@ -521,22 +524,13 @@ a :hover{
     }
 
     .user-content {
-      width: 69%;
-        text-align: center;
-        margin: 0px 43px 33px 44px;
-    }
-
-    .user-content h3 {
-      font-size: 1.25em;
-    }
-
-    .user-content p {
-        font-size: 14px;
-        font-weight: 400;
+      width: 72%;
+      text-align: center;
+      margin: 0px 43px 33px 44px;
     }
 
     .user-image {
-      margin: 59px 45px 0px 45px;
+      margin: 59px 45px 59px 45px;
       width: 75%;
     }
 
@@ -606,7 +600,7 @@ a :hover{
     .icons {
       position: relative;
       top: 20px;
-      left: 160px;
+      left: 189px;
       text-align: center;
     }
 
