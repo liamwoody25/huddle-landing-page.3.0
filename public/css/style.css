@@ -345,18 +345,18 @@ a :hover{
    width: 39%;
 }
 
-.fa-location-dot {
+.icon-location {
    margin-right: 15px;
    font-size: 24px;
    
 }
 
-.fa-phone-volume {
+.icon-phone {
    margin-right: 16px;
    font-size: 24px;
 }
 
-.fa-envelope { 
+.icon-email { 
    margin-right: 24px;
 }
 
